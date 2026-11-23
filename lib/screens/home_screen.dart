@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
   }
 
   Future<void> _pickFolder(BuildContext context, AppState s) async {
-    final folder = await FilePicker.platform.getDirectoryPath();
+    final folder = await FilePicker.getDirectoryPath();
     if (folder == null) return;
     final options = await _transferOptions(context, s);
     if (options == null) return;
