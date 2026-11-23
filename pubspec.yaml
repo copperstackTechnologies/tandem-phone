@@ -1,7 +1,7 @@
 name: tandem
 description: Tandem - Connect your phone and PC seamlessly over local Wi-Fi.
 publish_to: 'none'
-version: 1.0.5+6
+version: 1.0.0+7
 
 environment:
   sdk: ^3.10.0
